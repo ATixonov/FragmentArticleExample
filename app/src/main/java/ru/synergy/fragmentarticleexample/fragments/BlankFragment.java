@@ -76,10 +76,10 @@ public class BlankFragment extends Fragment {
                 TextView textView = rootView.findViewById(R.id.fragment_header);
                 switch (i){
                     case YES:
-                        textView.setText(R.string.yes);
+                        textView.setText(R.string.yes_message);
                         break;
                     case NO:
-                        textView.setText(R.string.no);
+                        textView.setText(R.string.no_message);
                         break;
                     default:
                         break; //TODO
